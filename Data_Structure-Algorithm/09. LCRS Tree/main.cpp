@@ -1,0 +1,45 @@
+// 왼쪽 자식 오른쪽 형제 방식으로 구현한 트리(LCRS = Left Child Right Sibling)
+
+#include "LCRSTree.h"
+
+int main(int argc, char* argv[])
+{
+	// 노드 생성
+	LCRSNode* Root = LCRS_CreateNode('A');
+
+	LCRSNode* B = LCRS_CreateNode('B');
+	LCRSNode* C = LCRS_CreateNode('C');
+	LCRSNode* D = LCRS_CreateNode('D');
+	LCRSNode* E = LCRS_CreateNode('E');
+	LCRSNode* F = LCRS_CreateNode('F');
+	LCRSNode* G = LCRS_CreateNode('G');
+	LCRSNode* H = LCRS_CreateNode('H');
+	LCRSNode* I = LCRS_CreateNode('I');
+	LCRSNode* J = LCRS_CreateNode('J');
+	LCRSNode* K = LCRS_CreateNode('K');
+
+	// 트리에 노드 추가
+	LCRS_AddChildNode(Root, B);
+	LCRS_AddChildNode(B, C);
+	LCRS_AddChildNode(B, D);
+	LCRS_AddChildNode(D, E);
+	LCRS_AddChildNode(D, F);
+	LCRS_AddChildNode(Root, G);
+	LCRS_AddChildNode(G, H);
+	LCRS_AddChildNode(Root, I);
+	LCRS_AddChildNode(I, J);
+	LCRS_AddChildNode(J, K);
+
+	// 트리 출력
+	LCRS_PrintTree(Root, 0);
+
+	printf("\n\n");
+
+	// 레벨 1의 모든 노드 출력
+	LCRS_PrintNodesAllLevel(Root, 1);
+
+	// 트리 소멸
+	LCRS_DestroyTree(Root);
+
+	return 0;
+}
