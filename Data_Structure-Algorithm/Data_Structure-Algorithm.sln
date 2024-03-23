@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17. Binary Search", "17. Bi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18. Binary Search 2", "18. Binary Search 2\18. Binary Search 2.vcxproj", "{384DE692-1168-4E79-AE66-6A99B1F6512F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19. Binary Search Tree", "19. Binary Search Tree\19. Binary Search Tree.vcxproj", "{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{384DE692-1168-4E79-AE66-6A99B1F6512F}.Release|x64.Build.0 = Release|x64
 		{384DE692-1168-4E79-AE66-6A99B1F6512F}.Release|x86.ActiveCfg = Release|Win32
 		{384DE692-1168-4E79-AE66-6A99B1F6512F}.Release|x86.Build.0 = Release|Win32
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Debug|x64.ActiveCfg = Debug|x64
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Debug|x64.Build.0 = Debug|x64
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Debug|x86.Build.0 = Debug|Win32
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Release|x64.ActiveCfg = Release|x64
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Release|x64.Build.0 = Release|x64
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Release|x86.ActiveCfg = Release|Win32
+		{4A83D564-D3D7-4F86-B5AC-6FD03CFF2792}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
